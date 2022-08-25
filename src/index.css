@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height:100vh;
+  width:100vw;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  height:100vh;
+  width:100vw;
+  background: url("https://media.istockphoto.com/photos/tomatoes-and-landscape-picture-id530380587?k=20&m=530380587&s=612x612&w=0&h=K1Fn32h0hd8VobdlwL-CqHhpCW4KQX4q8B-R1gQjqZA=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+
+}
+
+.counter-container{
+  background-color: rgba(250,250,250,0.70);
+  padding-bottom:20px;
+  width:300px;
+}
+
+.button-container{
+  padding-top:30px;
+}
+
+button{
+  width: 30px;
+  height:30px;
+  padding: 0px 20px;
+  margin:0px 25px;
+}
+
+.tomato-container{
+  position:fixed;
+  right:301px;
+  margin-top:20px;
+  width:300px;
+  background-color: rgba(250,250,250,0.70);
+  padding-bottom:10px;
+}
+
+.tomato-image{
+  height:50px;
+  width: 50px;
+  margin: 0px 0px -3px 0px;
+}
